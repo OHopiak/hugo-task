@@ -1,0 +1,12 @@
+@import "App";
+
+body{
+	background: url("../../assets/background.png") no-repeat center;
+}
+
+html, body, #root {
+	//height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
