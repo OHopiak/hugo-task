@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {HashRouter as Router, Route, Switch} from 'react-router-dom';
 import logo from './assets/logo.svg';
 import {InfoBanner, Login, ResetPassword, SignUp, VerifyEmail,} from './components'
 import 'typeface-roboto'

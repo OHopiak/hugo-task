@@ -2,6 +2,7 @@
 	"name": "hugo-task",
 	"version": "0.1.0",
 	"private": true,
+	"homepage": "https://ohopiak.github.io/hugo-task/",
 	"dependencies": {
 		"@material-ui/core": "^3.1.0",
 		"@material-ui/icons": "^3.0.1",
@@ -24,6 +25,11 @@
 		"build": "react-scripts build",
 		"test": "react-scripts test --env=jsdom",
 		"eject": "react-scripts eject",
-		"sass": "sass --watch src/styles/scss:src/styles/css"
+		"sass": "sass --watch src/styles/scss:src/styles/css",
+		"predeploy": "npm run build && sass src/styles/scss:src/styles/css",
+		"deploy": "gh-pages -d build"
+	},
+	"devDependencies": {
+		"gh-pages": "^2.0.0"
 	}
 }

@@ -1,4 +1,6 @@
-
+$orange: #fd854c;
+$dark-orange: #fc6f35;
+$gray: #ced4da;
 .form {
 	width: 100%;
 	min-width: 420px;
@@ -22,11 +24,11 @@
 		margin-bottom: .5rem;
 	}
 	.form-submit {
-		background-color: #fd854c;
-		color: #ffffff;
+		background-color: $orange;
+		color: white;
 		transition: all 0.3s;
 		padding: 13px 20px;
-		border: 1px solid #fd854c;
+		border: 1px solid $orange;
 		border-radius: .3rem;
 		font-weight: 600;
 		font-size: 16px;
@@ -57,11 +59,11 @@
 		padding: .5rem 1rem;
 		background-clip: padding-box;
 		font-size: 1.25rem;
-		border: 1px solid #ced4da;
+		border: 1px solid $gray;
 		border-radius: .3rem;
 		outline: none!important;
 		&:focus{
-			border-color: #fc6f35!important;
+			border-color: $dark-orange !important;
 		}
 		&:not(:last-child) {
 			border-top-right-radius: 0;
@@ -73,7 +75,7 @@
 		display: flex;
 		background-color: #f8f8f8;
 		padding: 11px;
-		border: 1px solid #ced4da;
+		border: 1px solid $gray;
 		border-radius: 0 .3rem .3rem 0;
 	}
 }
